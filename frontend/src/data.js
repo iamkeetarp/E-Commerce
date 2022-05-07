@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: "1",
       name: "iPhone 13",
       slug: "iPhone-13",
       category: "Mobile",
@@ -13,6 +14,7 @@ const data = {
       description: "best camera phone",
     },
     {
+      _id: "2",
       name: "iPhone 12",
       slug: "iPhone-12",
       category: "Mobile",
@@ -25,6 +27,7 @@ const data = {
       description: "best camera phone",
     },
     {
+      _id: "3",
       name: "iPhone 11",
       slug: "iPhone-11",
       category: "Mobile",
@@ -37,6 +40,7 @@ const data = {
       description: "best camera phone",
     },
     {
+      _id: "4",
       name: "iPhone XR",
       slug: "iPhone-XR",
       category: "Mobile",
