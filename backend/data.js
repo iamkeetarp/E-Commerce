@@ -67,6 +67,19 @@ const data = {
       countInStock: 10,
       rating: 4.5,
     },
+    {
+      // _id: "4",
+      name: "iPhone 7",
+      slug: "iPhone-7",
+      category: "Mobile",
+      image: "/images/img1.jpg",
+      brand: "apple",
+      description: "best camera phone",
+      numReviews: 10,
+      price: 32000,
+      countInStock: 10,
+      rating: 4.5,
+    },
   ],
 };
 
