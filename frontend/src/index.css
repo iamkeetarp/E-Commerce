@@ -31,8 +31,8 @@ main {
   margin: 1rem;
 }
 .product img {
-  width: 100%;
-  max-width: 400px;
+  width: 100%;  
+  max-width: 400px;  
 }
 .product-info {
   padding: 1rem;
@@ -69,7 +69,7 @@ width: 240px;
 height: 100%;
 position:absolute;
 left: -300px;
-background-color: #100901;
+background-color: #000000;
 transition: 0.5s;
 }
 .site-container{
