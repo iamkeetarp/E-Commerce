@@ -178,7 +178,7 @@ export default function SearchScreen() {
                 <li key={p.value}>
                   <Link
                     to={getFilterUrl({ price: p.value })}
-                    className={p.value == price ? "text-bold" : ""}
+                    className={p.value === price ? "text-bold" : ""}
                   >
                     {p.name}
                   </Link>

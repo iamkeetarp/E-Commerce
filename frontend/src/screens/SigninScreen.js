@@ -9,7 +9,7 @@ import { useContext } from "react";
 import { Store } from "../Store";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import { getError } from "../utils";
 
 export default function SigninScreen() {
