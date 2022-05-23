@@ -82,7 +82,7 @@ function ProductScreen() {
           ></img>
         </Col>
         <Col md={3}>
-          <ListGroup variant="flush">
+          <ListGroup variant="flush" className="border mt-5">
             <ListGroup.Item>
               <Helmet>
                 <title>{product.name}</title>
@@ -95,7 +95,7 @@ function ProductScreen() {
                 numReviews={product.numReviews}
               ></Rating>
             </ListGroup.Item>
-            <ListGroup.Item>Pirce : ${product.price}</ListGroup.Item>
+            <ListGroup.Item>Pirce : ₹ {product.price}</ListGroup.Item>
             <ListGroup.Item>
               Description:
               <p>{product.description}</p>
@@ -103,9 +103,9 @@ function ProductScreen() {
           </ListGroup>
         </Col>
         <Col md={3}>
-          <Card>
+          <Card className="mt-5">
             <Card.Body>
-              <ListGroup variant="flush">
+              <ListGroup variant="flush" >
                 <ListGroup.Item>
                   <Row>
                     <Col>Price:</Col>

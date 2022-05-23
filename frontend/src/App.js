@@ -33,6 +33,7 @@ import AdminRoute from "./screens/components/AdminRoute";
 import ProductListScreen from "./screens/ProductListScreen";
 import OrderListScreen from "./screens/OrderListScreen";
 import UserListScreen from "./screens/UserListScreen";
+import Footer from "./screens/components/Footer";
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -238,9 +239,7 @@ function App() {
             </Routes>
           </Container>
         </main>
-        <footer>
-          <div className="text-center">All rights reserved</div>
-        </footer>
+        <Footer></Footer>
       </div>
     </BrowserRouter>
   );
