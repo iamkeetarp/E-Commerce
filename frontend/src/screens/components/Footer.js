@@ -15,20 +15,26 @@ const Footer = () => (
           <h5 className="text-uppercase">Connect</h5>
           <ul className="list-group">
             <li className="list-group-item bg-dark ">
-              <a href="#!" className="link-light">LinkedIn</a>
+              <a href="#!" className="link-light">
+                LinkedIn
+              </a>
             </li>
             <li className="list-group-item bg-dark ">
-              <a href="#!" className="link-light" >Github</a>
+              <a href="#!" className="link-light">
+                Github
+              </a>
             </li>
             <li className="list-group-item bg-dark ">
-              <a href="#!" className="link-light">Twitter</a>
+              <a href="#!" className="link-light">
+                Twitter
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div className="footer-copyright text-center py-3">© 2022 Copyright:</div>
+    <div className="footer-copyright text-center py-3">© 2022 Copyright</div>
   </footer>
 );
 

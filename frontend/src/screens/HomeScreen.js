@@ -43,11 +43,11 @@ function HomeScreen() {
     fetchData();
   }, []);
   return (
-    <div>
+    <div >
       <Helmet>
-        <title>Amazona</title>
+        <title>E-Zon</title>
       </Helmet>
-      <h1>Featured Products</h1>
+      <h1 className="text-center mb-5 mt-5">Featured Products</h1>
 
       <div className="products">
         {loading ? (
